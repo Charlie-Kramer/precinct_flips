@@ -1,0 +1,235 @@
+Best for base D
+***********************
+**********************************************
+model knn best score and params
+0.7666666666666666
+{'n_neighbors': 17, 'p': 1, 'weights': 'uniform'}
+category value counts 0
+1.0    485
+0.0    448
+Name: count, dtype: int64
+category value counts-test set 0
+1.0    95
+0.0    92
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  knn
+class numbers--test set
+0
+0.0    92
+1.0    95
+Name: count, dtype: int64
+F1 score 0.7807486631016043
+Matthews 0.5618993135011442
+Balanced Accuracy 0.780949656750572
+Confusion Matrix
+model rf best score and params
+0.7692307692307692
+{'criterion': 'entropy', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 120}
+category value counts 0
+1.0    485
+0.0    448
+Name: count, dtype: int64
+category value counts-test set 0
+1.0    95
+0.0    92
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  rf
+class numbers--test set
+0
+0.0    92
+1.0    95
+Name: count, dtype: int64
+F1 score 0.7853403141361257
+Matthews 0.5613412827286319
+Balanced Accuracy 0.7806064073226544
+Confusion Matrix
+model ab best score and params
+0.7653846153846153
+{'learning_rate': 1, 'n_estimators': 55}
+category value counts 0
+1.0    485
+0.0    448
+Name: count, dtype: int64
+category value counts-test set 0
+1.0    95
+0.0    92
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  ab
+class numbers--test set
+0
+0.0    92
+1.0    95
+Name: count, dtype: int64
+F1 score 0.7539267015706806
+Matthews 0.4971389464165499
+Balanced Accuracy 0.7485125858123569
+Confusion Matrix
+model svm best score and params
+0.7615384615384615
+{'C': 0.5, 'gamma': 'scale', 'kernel': 'linear'}
+category value counts 0
+1.0    485
+0.0    448
+Name: count, dtype: int64
+category value counts-test set 0
+1.0    95
+0.0    92
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  svm
+class numbers--test set
+0
+0.0    92
+1.0    95
+Name: count, dtype: int64
+F1 score 0.7789473684210526
+Matthews 0.5506864988558352
+Balanced Accuracy 0.7753432494279175
+Confusion Matrix
+model nn best score and params
+0.7525641025641026
+{'activation': 'tanh', 'hidden_layer_sizes': 100, 'learning_rate': 'constant'}
+category value counts 0
+1.0    485
+0.0    448
+Name: count, dtype: int64
+category value counts-test set 0
+1.0    95
+0.0    92
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  nn
+class numbers--test set
+0
+0.0    92
+1.0    95
+Name: count, dtype: int64
+F1 score 0.7253886010362695
+Matthews 0.4329403285140938
+Balanced Accuracy 0.7162471395881007
+Confusion Matrix
+
+est for base R
+***********************
+**********************************************
+0.9573189671908366
+{'n_neighbors': 4, 'p': 2, 'weights': 'distance'}
+category value counts 0
+0.0    1274
+1.0     217
+Name: count, dtype: int64
+category value counts-test set 0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  knn
+class numbers--test set
+0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+F1 score 0.7058823529411765
+Matthews 0.6557374600927134
+Balanced Accuracy 0.8659536541889483
+Confusion Matrix
+0.9524267132595613
+{'criterion': 'entropy', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 140}
+category value counts 0
+0.0    1274
+1.0     217
+Name: count, dtype: int64
+category value counts-test set 0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  rf
+class numbers--test set
+0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+F1 score 0.7252747252747253
+Matthews 0.6765397093832973
+Balanced Accuracy 0.8475490196078431
+Confusion Matrix
+0.8906086196854979
+{'learning_rate': 1, 'n_estimators': 90}
+category value counts 0
+0.0    1274
+1.0     217
+Name: count, dtype: int64
+category value counts-test set 0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  ab
+class numbers--test set
+0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+F1 score 0.6666666666666666
+Matthews 0.6144841736688976
+Balanced Accuracy 0.8616310160427807
+Confusion Matrix
+0.9347553873034362
+{'C': 2, 'gamma': 'auto', 'kernel': 'rbf'}
+category value counts 0
+0.0    1274
+1.0     217
+Name: count, dtype: int64
+category value counts-test set 0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  svm
+class numbers--test set
+0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+F1 score 0.6857142857142857
+Matthews 0.6330842894933112
+Balanced Accuracy 0.8600713012477719
+Confusion Matrix
+0.960740632886818
+{'activation': 'relu', 'hidden_layer_sizes': 100, 'learning_rate': 'constant'}
+category value counts 0
+0.0    1274
+1.0     217
+Name: count, dtype: int64
+category value counts-test set 0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+****
+ re - fitting
+scoring  nn
+class numbers--test set
+0
+0.0    255
+1.0     44
+Name: count, dtype: int64
+F1 score 0.6601941747572816
+Matthews 0.6005757943271304
+Balanced Accuracy 0.8373440285204992
+Confusion Matrix
+execution time =  114911.77300286293 seconds
+
+Process finished with exit code 0

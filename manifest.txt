@@ -1,0 +1,10 @@
+flips_eda       reads election files, compiles list of flips by precinct by year, writes to df0.csv
+geo_joins       reads precinct and tract shapefiles, finds closest tract for each precinct, writes to distance.csv,
+                    creates prec2tract.txt (dictionary to map precinct to nearest tract)
+get_acs_data    pulls acs data, writes to acs_data.csv
+data_merge      merge data from (1) precinct voting outcomes, (2) precinct-to-tract mapper, (3) tract ACS data,
+                    writes to voting_acs_df.csv
+merged_eda      eda on merged data--map doesn't work (problem with geometry)
+rf_eda          compares methods for oversampling based on f1
+adaboost_eda    choose best oversampling method based on adaboost f1 score
+modeling        run competition between 5 ML models for base-D and base-R classes
